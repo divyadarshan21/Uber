@@ -6,7 +6,6 @@ async function connectToDb() {
       serverSelectionTimeoutMS: 30000,
       connectTimeoutMS: 30000,
     });
-
     console.log("Connected to DB");
   } catch (err) {
     console.log("Database connection error:", err.message);
